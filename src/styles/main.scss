@@ -1,0 +1,85 @@
+@import "./_variables";
+@import "./fonts/main";
+
+html,
+body {
+  height:100%;
+  width: 100%;
+  //font-family: "Times New Roman Normal";
+ // text-transform: capitalize;;
+  margin: 0px;
+  padding: 0px;
+
+  webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;
+}
+
+:global .content {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+:global .container {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+:global .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global input {
+  padding: $button-padding-small-static;
+  margin: $button-margin-small-static;
+  text-transform: uppercase;
+  font-size: $font-size-medium;
+}
+
+:global .horiz-border {
+  border-top: 1px solid;
+  width: 100%;
+}
+
+:global .hidden {
+  display: hidden;
+  opacity: 0;
+}
+
+:global(.clear) {
+  clear: both;
+  overflow: hidden;
+}
+
+:global(.text-green) {
+  color: $green-color;
+}
+
+:global(.text-blue) {
+  color: $blue-color;
+}
+
+:global(.text-red) {
+  color: $red-color;
+}
+
+:global(.backgroud-green) {
+  background-color: $green-color;
+}
+
+:global(.backgroud-blue) {
+  background-color: $blue-color;
+}
+
+:global(.backgroud-red) {
+  background-color: $red-color;
+}
